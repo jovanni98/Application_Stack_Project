@@ -1,0 +1,23 @@
+.box{
+    width: auto;
+    
+    background-color: rgb(141, 89, 65);
+    padding: 50px;
+    margin: 40px;
+    text-align: center;
+   color: white;
+}
+#title {
+    font-family: "Black Han Sans", san-serif;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
+        1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+        
+    }
+    body {
+        background-image: url(horoscope.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
