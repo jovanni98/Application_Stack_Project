@@ -55,14 +55,18 @@ function bdayConverter(){
     else if(bValue >= 11122 && bValue <= 11221){
         horo = "Sagittarius";
     }
-    else if(bValue >= 11222 && bValue <= 10119){
+    else if(bValue >= 11222 && bValue <= 11231){
         horo = "Capricorn";
+    }
+    else if(bValue >= 10101 && bvalue <= 10119){
+        horo = "Capricorn";
+        
     }
     else if(bValue >= 10120 && bValue <= 10218){
         horo = "Aquarius";
     }
     else{
-        horo = "Pieces";
+        horo = "Pisces";
     }
 
 
